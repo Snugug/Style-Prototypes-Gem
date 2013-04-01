@@ -3,12 +3,17 @@
 # By default, you should always included Compass. Do not include your
 #  extension.
 require 'compass'
+require 'toolkit'
+require 'compass-normalize'
+require 'sassy-buttons'
+require 'color-schemer'
+require 'modular-scale'
 
 # This tells Compass what your Compass extension is called, and where to find
 #  its files
 # Replace 'extension' with the name of your extension. Spaces allowed.
 extension_path = File.expand_path(File.join(File.dirname(__FILE__), ".."))
-Compass::Frameworks.register('extension', :path => extension_path)
+Compass::Frameworks.register('style-prototypes', :path => extension_path)
 
 # Version and date of version for your Compass extension.
 # Replace Extension with the name of your extension
@@ -16,15 +21,15 @@ Compass::Frameworks.register('extension', :path => extension_path)
 #  Version is a number. If a version contains alphas, it will be created as
 #    a prerelease version
 #  Date is in the form of YYYY-MM-DD
-module Extension
+module StylePrototypes
   VERSION = "1.0"
-  DATE = "2012-09-09"
+  DATE = "2012-04-01"
 end
 
-# This is where any custom SassScript should be placed. The functions will be  
+# This is where any custom SassScript should be placed. The functions will be
 #  available on require of your extension without the need for users to import
 #  any partials. Uncomment below.
 
 # module Sass::Script::Functions
-# 
+#
 # end
