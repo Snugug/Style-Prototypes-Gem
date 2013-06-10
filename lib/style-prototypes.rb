@@ -6,7 +6,6 @@ require 'compass'
 require 'toolkit'
 require 'compass-normalize'
 require 'sassy-buttons'
-require 'color-schemer'
 require 'modular-scale'
 
 # This tells Compass what your Compass extension is called, and where to find
@@ -22,8 +21,8 @@ Compass::Frameworks.register('style-prototypes', :path => extension_path)
 #    a prerelease version
 #  Date is in the form of YYYY-MM-DD
 module StylePrototypes
-  VERSION = "1.0"
-  DATE = "2012-04-01"
+  VERSION = "1.1.0"
+  DATE = "2012-06-09"
 end
 
 # This is where any custom SassScript should be placed. The functions will be
