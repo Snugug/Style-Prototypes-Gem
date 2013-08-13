@@ -24,6 +24,7 @@ Gem::Specification.new do |s|
   s.email = ["snugug@gmail.com"]
   # URL of the extension
   s.homepage = "https://github.com/Team-Sass/Style-Prototypes"
+  s.license = 'MIT'
 
   # Gem Files
   # These are the files to be included in your Compass extension.
@@ -56,7 +57,7 @@ Gem::Specification.new do |s|
   #  user's system when installing your gem.
   s.add_dependency("sass",              [">= 3.2.0"])
   s.add_dependency("compass",           [">= 0.12.1"])
-  s.add_dependency("toolkit",           [">= 1.1.1"])
+  s.add_dependency("toolkit",           [">= 1.3.7"])
   s.add_dependency("sassy-buttons",     [">= 0.1.4"])
   s.add_dependency("modular-scale",     [">= 1.0.6"])
   s.add_dependency("compass-normalize", [">= 1.4.3"])
