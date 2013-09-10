@@ -20,7 +20,7 @@ Compass::Frameworks.register('style-prototypes', :path => extension_path)
 #    a prerelease version
 #  Date is in the form of YYYY-MM-DD
 module StylePrototypes
-  VERSION = "1.2.2"
+  VERSION = "1.3.0"
   DATE = "2012-09-10"
 end
 
