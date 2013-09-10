@@ -58,7 +58,6 @@ Gem::Specification.new do |s|
   s.add_dependency("sass",              [">= 3.2.0"])
   s.add_dependency("compass",           [">= 0.12.1"])
   s.add_dependency("toolkit",           [">= 1.3.8"])
-  s.add_dependency("sassy-buttons",     [">= 0.1.4"])
   s.add_dependency("modular-scale",     [">= 1.0.6"])
   s.add_dependency("compass-normalize", [">= 1.4.3"])
 end
