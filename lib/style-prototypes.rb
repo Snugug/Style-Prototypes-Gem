@@ -20,8 +20,8 @@ Compass::Frameworks.register('style-prototypes', :path => extension_path)
 #    a prerelease version
 #  Date is in the form of YYYY-MM-DD
 module StylePrototypes
-  VERSION = "1.3.0"
-  DATE = "2012-09-10"
+  VERSION = "2.0.0.alpha.1"
+  DATE = "2014-01-25"
 end
 
 # This is where any custom SassScript should be placed. The functions will be

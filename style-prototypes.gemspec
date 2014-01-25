@@ -55,9 +55,9 @@ Gem::Specification.new do |s|
   # These are Gem dependencies, not Compass dependencies. Including gems
   #  here will make sure the relevant gem and version are installed on the
   #  user's system when installing your gem.
-  s.add_dependency("sass",              [">= 3.2.0"])
-  s.add_dependency("compass",           [">= 0.12.1"])
-  s.add_dependency("toolkit",           [">= 1.3.8"])
-  s.add_dependency("modular-scale",     [">= 1.0.6"])
-  s.add_dependency("compass-normalize", [">= 1.4.3"])
+  s.add_dependency("sass",              ["~> 3.3.0.rc.2"])
+  s.add_dependency("compass",           ["~> 1.0.0.alpha.17"])
+  s.add_dependency("toolkit",           ["~> 2.0.0.alpha.5"])
+  s.add_dependency("singularitygs",     ["~> 1.2.0.rc.1"])
+  s.add_dependency("color-schemer", ["~> 0.2.8"])
 end
