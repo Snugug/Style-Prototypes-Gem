@@ -59,5 +59,5 @@ Gem::Specification.new do |s|
   s.add_dependency("compass",           ["~> 1.0.0.alpha.17"])
   s.add_dependency("toolkit",           ["~> 2.0.0.alpha.5"])
   s.add_dependency("singularitygs",     ["~> 1.2.0.rc.1"])
-  s.add_dependency("color-schemer", ["~> 0.2.8"])
+  s.add_dependency("color-schemer",     ["~> 0.2.8"])
 end
