@@ -4,8 +4,9 @@
 #  extension.
 require 'compass'
 require 'toolkit'
-require 'compass-normalize'
-require 'modular-scale'
+require 'breakpoint'
+require 'singularitygs'
+require 'color-schemer'
 
 # This tells Compass what your Compass extension is called, and where to find
 #  its files
@@ -20,8 +21,8 @@ Compass::Frameworks.register('style-prototypes', :path => extension_path)
 #    a prerelease version
 #  Date is in the form of YYYY-MM-DD
 module StylePrototypes
-  VERSION = "2.0.0.alpha.1"
-  DATE = "2014-01-25"
+  VERSION = "2.0.0.alpha.2"
+  DATE = "2014-01-26"
 end
 
 # This is where any custom SassScript should be placed. The functions will be
